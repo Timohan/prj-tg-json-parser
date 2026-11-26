@@ -1,0 +1,12 @@
+File 1.json
+isObjectCount 1
+upObject 0
+isName example
+isObjectCount 2
+upObject 0
+isName extext0
+isText xas0
+downObject
+upObject 1
+isName extext1
+isText xas1

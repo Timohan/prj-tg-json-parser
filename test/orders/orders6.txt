@@ -1,0 +1,23 @@
+File 6.json
+isObjectCount 1
+upObject 0
+isName fs
+isObjectCount 4
+upObject 0
+isName size
+isObjectCount 613
+upObject 0
+isValue 8901
+downObject
+downObject
+upObject 1
+isName isXBRL
+isObjectCount 613
+downObject
+upObject 2
+isName isInlineXBRL
+isObjectCount 613
+downObject
+upObject 3
+isName isText
+isObjectCount 3

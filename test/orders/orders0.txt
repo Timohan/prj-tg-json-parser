@@ -1,0 +1,22 @@
+File 0.json
+isObjectCount 2
+upObject 0
+isObjectCount 0
+isValue 12
+isName example
+downObject
+upObject 1
+isObjectCount 0
+isName na me
+isText NA ME
+File 0_1.json
+isObjectCount 2
+upObject 1
+isObjectCount 0
+isValue 12
+isName example
+downObject
+upObject 0
+isName na me
+isObjectCount 0
+isText NA ME

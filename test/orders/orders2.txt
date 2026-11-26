@@ -1,0 +1,196 @@
+File 2.json
+isObjectCount 5
+upObject 0
+isName arraynames
+isObjectCount 5
+isArray
+upObject 0
+isObjectCount 3
+upObject 0
+isName name
+isText Tom
+downObject
+upObject 1
+isName email
+isText tom@email.com
+downObject
+upObject 2
+isName age
+isValue 13
+downObject
+downObject
+
+upObject 1
+isObjectCount 3
+upObject 0
+isName name
+isText Tim
+downObject
+upObject 1
+isName email
+isText tim@email.com
+downObject
+upObject 2
+isName age
+isValue 28
+downObject
+downObject
+
+
+upObject 2
+isObjectCount 3
+upObject 0
+isName name
+isText John
+downObject
+upObject 1
+isName email
+isText john@email.com
+downObject
+upObject 2
+isName age
+isValue 32
+downObject
+downObject
+
+upObject 3
+isObjectCount 3
+upObject 0
+isName name
+isText SomeName
+downObject
+upObject 1
+isName email
+isText somename@email.com
+downObject
+upObject 2
+isName age
+isValue 91
+downObject
+downObject
+
+upObject 4
+isObjectCount 3
+upObject 0
+isName name
+isText SomeName2
+downObject
+upObject 1
+isName email
+isText somename2@email.com
+downObject
+upObject 2
+isName age
+isValue 41
+downObject
+downObject
+downObject
+
+upObject 1
+isName days
+isObjectCount 7
+upObject 0
+isText Sunday
+downObject
+upObject 1
+isText Monday
+downObject
+upObject 2
+isText Tuesday
+downObject
+upObject 3
+isText Wednesday
+downObject
+upObject 4
+isText Thursday
+downObject
+upObject 5
+isText Friday
+downObject
+upObject 6
+isText Saturday
+downObject
+downObject
+
+upObject 2
+isName booleans
+isObjectCount 5
+upObject 0
+isBoolean true
+downObject
+isObjectCount 5
+upObject 1
+isBoolean true
+downObject
+isObjectCount 5
+upObject 2
+isBoolean false
+downObject
+isObjectCount 5
+upObject 3
+isBoolean false
+downObject
+isObjectCount 5
+upObject 4
+isBoolean true
+downObject
+downObject
+
+upObject 3
+isName mixture
+isObjectCount 5
+upObject 0
+isValue 123.5
+downObject
+upObject 1
+isBoolean true
+downObject
+upObject 2
+isText sometext
+downObject
+upObject 3
+isObjectCount 3
+upObject 0
+isText a
+downObject
+upObject 1
+isText b
+downObject
+upObject 2
+isText c
+downObject
+downObject
+
+upObject 4
+isObjectCount 2
+upObject 0
+isName well
+isObjectCount 1
+upObject 0
+isName arr
+isObjectCount 3
+upObject 0
+isText aa
+downObject
+upObject 1
+isText bb
+downObject
+upObject 2
+isText cc
+downObject
+downObject
+downObject
+upObject 1
+isName asqw
+isObjectCount 1
+downObject
+downObject
+downObject
+
+upObject 4
+isName units
+isObjectCount 1
+upObject 0
+isName shares
+isObjectCount 3
+

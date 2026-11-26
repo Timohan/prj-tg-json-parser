@@ -1,0 +1,12 @@
+{"arraynames":[
+    {"name":"Tom", "email":"tom@email.com", "age":13},
+    {"name":"Tim", "email":"tim@email.com", "age":28},
+    {"name":"John", "email":"john@email.com", "age":32},
+    {"name":"SomeName", "email":"somename@email.com", "age":91},
+    {"name":"SomeName2", "email":"somename2@email.com", "age":41}
+],
+"days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+"booleans": [true, true, false, false, true],
+"mixture": [123.5, true, "sometext", ["a", "b", "c"], {"well":{"arr": ["aa", "bb", "cc"]}, "asqw":{"arr2": ["aa2", "bb2", "cc2"]}}],
+"units":{"shares":[{"end":"2015-05-11","val":43176191,"accn":"0001193125-15-188218","fy":2015,"fp":"Q1","form":"10-Q","filed":"2015-05-14","frame":"CY2015Q1I"},{"end":"2015-08-06","val":44025832,"accn":"0001193125-15-290040","fy":2015,"fp":"Q2","form":"10-Q","filed":"2015-08-13","frame":"CY2015Q2I"},{"end":"2015-11-05","val":46229482,"accn":"0001193125-15-375689","fy":2015,"fp":"Q3","form":"10-Q","filed":"2015-11-12","frame":"CY2015Q3I"}]}
+}

@@ -1,0 +1,15 @@
+File 4.json
+isObjectCount 3
+upObject 0
+isObjectCount 0
+isText 0000
+isName example
+downObject
+upObject 1
+isObjectCount 0
+isName emptytext
+isText
+downObject
+upObject 2
+isObjectCount 0
+isName emptything

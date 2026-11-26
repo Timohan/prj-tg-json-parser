@@ -1,0 +1,54 @@
+# edge cases for issues 1-6
+File 7.json
+isObject
+isObjectCount 9
+upObject 0
+isName empty
+isObject
+isObjectCount 0
+downObject
+upObject 1
+isName emptyArr
+isArray
+isObjectCount 0
+downObject
+upObject 2
+isName spaced
+isValue -150
+downObject
+upObject 3
+isName esc
+isText x\
+downObject
+upObject 4
+isText ä€😀
+downObject
+upObject 6
+isName nil
+isNull
+isValue 0
+downObject
+upObject 7
+isValue 0
+downObject
+upObject 8
+isBoolean true
+downObject
+# text at root, with BOM and whitespace
+File 8.json
+isText only text
+# boolean at root
+File 9.json
+isBoolean false
+File 10.json
+isArray
+isObjectCount 3
+upObject 0
+isArray
+isObjectCount 0
+downObject
+upObject 1
+isArray
+downObject
+upObject 2
+isObject

@@ -1,0 +1,60 @@
+# numbers, duplicate keys, trailing spaces and \u0000
+File 11.json
+isObject
+isObjectCount 10
+upObjectName big
+isNumberText 9007199254740993
+isInt64 9007199254740993
+downObject
+upObjectName min
+isInt64 -9223372036854775808
+downObject
+upObjectName over
+int64Fails
+isValue 9223372036854775808
+downObject
+upObjectName frac
+isNumberText 1.50e3
+isValue 1500
+int64Fails
+downObject
+upObjectName huge
+valueFails
+int64Fails
+isNumberText 1e999
+downObject
+# duplicate name: last one wins, both reachable by index
+upObjectName dup
+isValue 2
+downObject
+upObject 5
+isName dup
+isValue 1
+downObject
+upObjectName nul
+isNull
+isNumberText 0
+isInt64 0
+downObject
+upObjectName trail
+isText ab  
+downObject
+upObject 9
+isObjectCount 0
+# raw UTF-8
+File utf8_valid.json
+upObjectName raw
+isText ä€😀
+# nesting exactly at the limit
+File depth_512.json
+isArray
+isObjectCount 1
+# name lookup only works on json objects, array elements have no names
+File 10.json
+isArray
+noObjectName 
+upObject 2
+isObject
+noObjectName 
+File 11.json
+noObjectName missing

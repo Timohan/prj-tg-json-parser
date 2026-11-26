@@ -1,0 +1,13 @@
+File 3.json
+isObjectCount 2
+upObject 0
+isObjectCount 0
+isText "12"
+isName example
+downObject
+upObject 1
+isObjectCount 0
+isName na me
+isText NA" " " " ME
+
+

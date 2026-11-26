@@ -1,0 +1,54 @@
+parseFails invalid_0.json Syntax 1 9
+parseFails invalid_1.json Syntax 1 8
+parseFails invalid_2.json Syntax 1 4
+parseFails invalid_3.json Syntax 1 6
+parseFails invalid_4.json Syntax
+parseFails invalid_5.json Syntax
+parseFails invalid_6.json Syntax
+parseFails invalid_7.json Syntax
+parseFails invalid_8.json Syntax
+parseFails invalid_9.json Syntax
+parseFails invalid_10.json Syntax
+parseFails lone_surrogate.json Syntax
+parseFails invalid_12.json Syntax
+parseFails invalid_13.json Syntax
+parseFails invalid_14.json Syntax 1 1
+parseFails invalid_15.json Syntax
+parseFails too_deep.json TooDeep 1 513
+parseFails does_not_exist.json FileOpenFailed
+parseFails depth_513.json TooDeep 1 513
+parseFails error_multiline.json Syntax 3 8
+parseFails utf8_bad_lead.json Syntax 1 8
+parseFails utf8_overlong.json Syntax 1 7
+parseFails utf8_surrogate.json Syntax 1 7
+parseFails utf8_truncated.json Syntax 1 7
+# a directory: opens but can not be read
+parseFails . FileReadFailed
+# parser is reusable after a failure
+File 0.json
+isObjectCount 2
+# error positions: BOM is not counted in columns, CR / CRLF / LF line ends
+parseFails error_bom_first.json Syntax 1 1
+parseFails error_bom.json Syntax 2 7
+parseFails error_cr.json Syntax 3 2
+parseFails error_crlf.json Syntax 3 2
+parseFails error_mixed.json Syntax 6 2
+# configurable depth limit
+maxDepth 3
+File 10.json
+parseFails depth_512.json TooDeep 1 4
+maxDepth 600
+File too_deep.json
+maxDepth 0
+parseFails too_deep.json TooDeep 1 513
+File depth_512.json
+# input size limit (0.json is 31 bytes)
+maxInputSize 31
+File 0.json
+maxInputSize 30
+parseFails 0.json TooLarge
+parseFails 6.json TooLarge
+maxInputSize 200000
+parseFails /dev/zero TooLarge
+maxInputSize 0
+File 6.json
